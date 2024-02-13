@@ -1,0 +1,15 @@
+<mat-toolbar class="mat-primary d-flex justify-content-between">
+  <a mat-button routerLink=""><mat-icon>shopping_cart</mat-icon> Ecommerce</a>
+  <div>
+    <a mat-button routerLink="">Products</a>
+    <a mat-button routerLink="orders">Orders</a>
+    <a mat-button routerLink="profile">Profile</a>
+    <a mat-button routerLink="signin">Sign in</a>
+    <a mat-button (click)="onSignOut()">Sign Out</a>
+    <a mat-button routerLink="signup">Sign up</a>
+  </div>
+</mat-toolbar>
+
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,15 @@
+.example-card {
+  max-width: 400px;
+  .mat-card-image{
+    object-fit: cover;
+    height: 300px;
+  }
+}
+
+.example-header-image {
+  background-image: url('/assets/no-image.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+
